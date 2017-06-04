@@ -19,20 +19,13 @@
 	function noscroll() {
 		window.scrollTo( 0, 0 );
 	}
-
-	// reset scrolling position
 	document.body.scrollTop = document.documentElement.scrollTop = 0;
-
-	// disable scrolling
 	window.addEventListener( 'scroll', noscroll );
-
 	trigger.addEventListener( 'click', toggleContent );
-
-	// For Demo purposes only (prevent jump on click)
 	[].slice.call( document.querySelectorAll('.content-wrapper a') ).forEach( function(el) { el.onclick = function() { return false; } } );
 })();
 
-// Background Image Sideshow
+
 (function(){
     'use strict';
 
@@ -40,10 +33,6 @@
 
 })();
 
-  // JavaScript Document
-
-
-// screen loader
 $(window).load(function() {
     "use strict";
     $('.screen-loader').fadeOut('slow');

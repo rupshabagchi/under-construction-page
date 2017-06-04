@@ -1026,7 +1026,7 @@ a:hover {
   overflow: hidden;
   left: 0;
   top: 0;
-  background: #fff url(../img/Preloader.gif) no-repeat center center;
+  background: #fff url(../img/PreLoader.gif) no-repeat center center;
   z-index: 10000;
 }
 
