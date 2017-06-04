@@ -1,61 +1,13 @@
 /* HTML5 Boilerplate v5.0.0 | MIT License | http://h5bp.com
    ==================================================
    ================================================== */
-/* *
- * Template Name: comingwa
- * Author: Riyad
- * Version: 1.0.0
- * 
- *
-   ================================================== */
-/* *
- * ============================================================================
- * Table of Contents
- * -----------------------------------------------------------------------
- * #Base styles: opinionated defaults
- * #Author Custom Style
- *      1.Author Custom Global Style
- *         2.Intro Section
- *         2.1.FullScreen Background Slider
- *         2.2.Intro Content
- *         2.2.1.Logo
- *         2.2.2.Intro Main Heading
- *         2.2.3.Countdown
- *         2.2.4.Intro Sub Heading
- *         2.2.5.Trigger Button with SVG
- *         2.2.6.Social Links                
- *         3.Trigger After Content
- *         3.1.Trigger Notify
- *         3.2.Our Service
- *         3.3.Our Awesome Team
- *         3.4.Contact Form
- *         3.5.Google Map
- *         3.6.Footer         
- *     #Helper classes
- *     #Responsive Style
- *     #Screen loader
- *     #Preloader
- *    
- * ============================================================================
-   ==================================================
-   ================================================== */
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ==========================================================================
-   ==================================================
-   ================================================== */
+
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
 }
-/* * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * These selection rule sets have to be separate.
- * Customize the background color to match your design.
-   ==================================================
-   ================================================== */
+
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
@@ -75,11 +27,7 @@ hr {
   margin: 1em 0;
   padding: 0;
 }
-/* * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
-   ==================================================
-   ================================================== */
+
 audio,
 canvas,
 iframe,
@@ -94,27 +42,16 @@ fieldset {
   margin: 0;
   padding: 0;
 }
-/* * Allow only vertical resizing of textareas.
-   ==================================================
-   ================================================== */
+
 textarea {  resize: vertical }
-/* * ==========================================================================
-   Browser Upgrade Prompt
-* ==========================================================================
-   ==================================================
-   ================================================== */
+
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
   color: #000;
   padding: 0.2em 0;
 }
-/* * ==========================================================================
-   Author's custom styles
-  ================= 1.Author Custom Global Style ===========================
-* ==========================================================================
-   ==================================================
-   ================================================== */
+
 @font-face {
   font-family: 'BeonMedium';
   src: url('../fonts/beon-webfont.eot');
@@ -765,10 +702,10 @@ a:hover {  text-decoration: underline }
 * ==========================================================================
    ==================================================
    ================================================== */
-@media only screen and (max-width: 767px) { 
+@media only screen and (max-width: 767px) {
     .text-justify {  text-align: center }
 }
-@media only screen and (max-width: 480px) { 
+@media only screen and (max-width: 480px) {
     /* body{background:#69C238}   */
     .intro {  position: absolute }
     .logo {  margin: -55px 0 25px }
@@ -796,7 +733,7 @@ a:hover {  text-decoration: underline }
     }
     .notify-after .form-group {  float: left }
 }
-@media only screen and (max-width: 304px) { 
+@media only screen and (max-width: 304px) {
     /* body{background:#69C238}   */
     .intro {  position: absolute }
     .container-open .notify-after {
@@ -804,7 +741,7 @@ a:hover {  text-decoration: underline }
       left: 5%;
     }
 }
-@media only screen and (max-width: 320px) { 
+@media only screen and (max-width: 320px) {
     .intro {  position: absolute }
     .text-logo {
       font-size: 3em;
@@ -830,7 +767,7 @@ a:hover {  text-decoration: underline }
     }
     .notify-after .form-group {  float: left }
 }
-@media only screen and (min-width: 238px) and (max-width: 319px) { 
+@media only screen and (min-width: 238px) and (max-width: 319px) {
     .intro {  position: absolute }
     .logo {  margin: -60px 0 25px }
     .text-logo {  margin: -60px 0 0 }
@@ -860,7 +797,7 @@ a:hover {  text-decoration: underline }
     }
     .notify-after .form-group {  float: left }
 }
-@media only screen and (min-width: 481px) and (max-width: 568px) { 
+@media only screen and (min-width: 481px) and (max-width: 568px) {
     .intro {  position: absolute }
     .intro-content {  padding: 2% }
     .logo {  margin: -45px 0 25px }
@@ -888,7 +825,7 @@ a:hover {  text-decoration: underline }
     }
     .notify-after .form-group {  float: left }
 }
-@media only screen and (min-width: 569px) and (max-width: 736px) { 
+@media only screen and (min-width: 569px) and (max-width: 736px) {
     .intro {  position: absolute }
     .logo {  margin: 0 0 20px }
     .text-logo {  margin: -60px 0 0 }
@@ -915,17 +852,17 @@ a:hover {  text-decoration: underline }
     }
     .notify-after .form-group {  float: left }
 }
-@media only screen and (min-width: 768px) and (max-width:991px) { 
+@media only screen and (min-width: 768px) and (max-width:991px) {
     .intro-title {  font-size: 3em }
     .container-open .notify-after {  left: 34% }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
     .container-open .notify-after {  left: 39% }
 }
-@media (min-width: 1200px) { 
-    
+@media (min-width: 1200px) {
+
 }
-@media print, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) { 
+@media print, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
     /* ===[ Style adjustments for high resolution devices ]===
        ================================================== */
 }
@@ -1020,7 +957,7 @@ a:hover {  text-decoration: underline }
    ==========================================================================
    ==================================================
    ================================================== */
-@media print { 
+@media print {
     *,
     *:before,
     *:after {
