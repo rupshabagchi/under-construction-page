@@ -1,4 +1,4 @@
-﻿<?php 
+<?php 
 $errors = '';
 $myemail = 'you@yoursite.com';
 if(empty($_POST['name'])  ||
@@ -22,8 +22,8 @@ $errors .= "\n Error: Invalid Email Address";
 if( empty($errors))
 {
 $to = $myemail;
-$email_subject = "A New Message Awaits: $subject";
-$email_body = "You have received a new message. Details are given below.\n Name: $name \n Email: $email \n Message: \n $message";
+$email_subject = "You have a new mail: $subject";
+$email_body = "\n Name: $name \n Email: $email \n Message: \n $message";
 $headers = "From: $email";
 
 mail($to, $email_subject, $email_body, $headers);
