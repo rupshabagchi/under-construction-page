@@ -322,27 +322,11 @@ p {
   font-family: BeonMedium;
 }
 
-.march li {
-  display: inline-block
+.march img {
+  width: 27%;
+  height: auto;
 }
 
-.march li span {
-  font-size: 80px;
-  font-weight: 300;
-  line-height: 80px;
-}
-
-.march li.seperator {
-  font-size: 14px;
-  margin-top: 12px;
-  line-height: 30px;
-  vertical-align: top;
-}
-
-.march li p {
-  color: #ddd;
-  font-size: 14px;
-}
 
 a {
   color: #76949F;
