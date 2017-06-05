@@ -1,31 +1,28 @@
-<?php 
+<?php
 $errors = '';
 $myemail = 'you@yoursite.com';
-if(empty($_POST['name'])  ||
-   empty($_POST['email']) ||
-   empty($_POST['message']))
-{
-$errors .= "\n Error: Required Field";
-}
+
+if (empty($_POST['name']) || empty($_POST['email']) || empty($_POST['message']))
+	{
+	$errors.= "\n Error: Required Field";
+	}
 
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
 
-if (!eregi(
-"^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$", 
-$email))
-{
-$errors .= "\n Error: Invalid Email Address";
-}
+if (!eregi("^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$", $email))
+	{
+	$errors.= "\n Error: Invalid Email Address";
+	}
 
-if( empty($errors))
-{
-$to = $myemail;
-$email_subject = "You have a new mail: $subject";
-$email_body = "\n Name: $name \n Email: $email \n Message: \n $message";
-$headers = "From: $email";
+if (empty($errors))
+	{
+	$to = $myemail;
+	$email_subject = "You have a new mail: $subject";
+	$email_body = "\n Name: $name \n Email: $email \n Message: \n $message";
+	$headers = "From: $email";
+	mail($to, $email_subject, $email_body, $headers);
+	}
 
-mail($to, $email_subject, $email_body, $headers);
-}
 ?>
