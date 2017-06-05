@@ -19,10 +19,6 @@ html {
 }
 
 
-/* * A better looking default horizontal rule
-   ==================================================
-   ================================================== */
-
 hr {
   display: block;
   height: 1px;
@@ -317,7 +313,7 @@ p {
   color: #2098f5
 }
 
-.countdown {
+.march {
   list-style: none;
   margin: 20px 0;
   padding: 0;
@@ -326,24 +322,24 @@ p {
   font-family: BeonMedium;
 }
 
-.countdown li {
+.march li {
   display: inline-block
 }
 
-.countdown li span {
+.march li span {
   font-size: 80px;
   font-weight: 300;
   line-height: 80px;
 }
 
-.countdown li.seperator {
+.march li.seperator {
   font-size: 14px;
   margin-top: 12px;
   line-height: 30px;
   vertical-align: top;
 }
 
-.countdown li p {
+.march li p {
   color: #ddd;
   font-size: 14px;
 }
@@ -787,16 +783,16 @@ a:hover {
   .fa-clock-spin {
     font-size: 1.5em !important
   }
-  .countdown {
+  .march {
     margin: -18px 0 0
   }
-  .countdown li span {
+  .march li span {
     font-size: 3em
   }
-  .countdown li p {
+  .march li p {
     margin: -15px 0 5px
   }
-  .countdown li.seperator {
+  .march li.seperator {
     font-size: 9px;
     line-height: normal;
     margin-top: 28px;
@@ -836,16 +832,16 @@ a:hover {
   .fa-clock-spin {
     font-size: 2em !important
   }
-  .countdown {
+  .march {
     margin: -10px 0 10px
   }
-  .countdown li span {
+  .march li span {
     font-size: 3em
   }
-  .countdown li p {
+  .march li p {
     margin: -15px 0 5px
   }
-  .countdown li.seperator {
+  .march li.seperator {
     font-size: 9px;
     line-height: normal;
     margin-top: 28px;
@@ -877,25 +873,25 @@ a:hover {
   .fa-clock-spin {
     font-size: 2em !important
   }
-  .countdown {
+  .march {
     margin: 10px 0
   }
-  .countdown li {
+  .march li {
     margin: -25px 0 0
   }
-  .countdown li span {
+  .march li span {
     font-size: 1.5em
   }
-  .countdown li p {
+  .march li p {
     font-size: 12px;
     margin: -25px 0 0;
   }
-  .countdown li.seperator {
+  .march li.seperator {
     font-size: 8px;
     line-height: 12px;
     margin-top: 0;
   }
-  .countdown li {
+  .march li {
     margin: -30px 0 0px
   }
   .intro-subtitle {
@@ -932,16 +928,16 @@ a:hover {
   .fa-clock-spin {
     font-size: 1.5em !important
   }
-  .countdown {
+  .march {
     margin: -18px 0 0
   }
-  .countdown li span {
+  .march li span {
     font-size: 3em
   }
-  .countdown li p {
+  .march li p {
     margin: -15px 0 10px
   }
-  .countdown li.seperator {
+  .march li.seperator {
     font-size: 9px;
     line-height: normal;
     margin-top: 28px;
@@ -973,19 +969,19 @@ a:hover {
   .fa-clock-spin {
     font-size: 2em !important
   }
-  .countdown li span {
+  .march li span {
     font-size: 2em
   }
-  .countdown li p {
+  .march li p {
     font-size: 12px;
     margin: -20px 0 0;
   }
-  .countdown li.seperator {
+  .march li.seperator {
     font-size: 10px;
     line-height: 15px;
     margin-top: -15px;
   }
-  .countdown li {
+  .march li {
     margin: -40px 0 0px
   }
   .intro-subtitle {
