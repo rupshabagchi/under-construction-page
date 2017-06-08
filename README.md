@@ -2,6 +2,13 @@
 
 
 ## Getting started
-This can be used as a template.
 
+
+Download this template, clone this repository:
+
+git clone https://github.com/rupshabagchi/under-construction-page
+
+or fork it.
+
+## Screenshots
 
