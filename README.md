@@ -17,3 +17,8 @@ or fork it.
 
 ![alt text](https://github.com/rupshabagchi/under-construction-page/tree/master/img/screen2.png "Demo Page Screenshot")
 
+![alt text](https://github.com/rupshabagchi/under-construction-page/tree/master/img/screen3.png "Demo Page Screenshot")
+
+![alt text](https://github.com/rupshabagchi/under-construction-page/tree/master/img/screen4.png "Demo Page Screenshot")
+
+
