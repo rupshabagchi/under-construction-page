@@ -11,14 +11,6 @@ Download this template, clone this repository:
 
 or fork it.
 
-## Screenshots
 
-![alt text](https://github.com/rupshabagchi/under-construction-page/tree/master/img/screen1.png "Demo Page Screenshot")
-
-![alt text](https://github.com/rupshabagchi/under-construction-page/tree/master/img/screen2.png "Demo Page Screenshot")
-
-![alt text](https://github.com/rupshabagchi/under-construction-page/tree/master/img/screen3.png "Demo Page Screenshot")
-
-![alt text](https://github.com/rupshabagchi/under-construction-page/tree/master/img/screen4.png "Demo Page Screenshot")
 
 
