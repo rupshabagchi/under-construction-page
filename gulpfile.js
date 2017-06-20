@@ -3,20 +3,19 @@ var concat = require('gulp-concat');
 var uglify = require('uglify');
 var watchify = require('watchify');
 
-gulp.task('scripts', function() {
-  gulp.src()
-  .pipe(concat())
+gulp.task('switcher', function() {
+  gulp.src('css/*.css')
+  .pipe(concat('switcher.min.css'))
   .pipe(gulp.dest('dist/'))
 });
 
-// I added this so that you see how to run two watch tasks
 gulp.task('css', function () {
-    gulp.watch('src/styles/*.css', function () {
-        return gulp.src('src/styles/*.css')
+    gulp.watch('css/*.css', function () {
+        return gulp.src('css/*.css')
         .pipe(concat('main.css'))
         .pipe(gulp.dest('dist/'));
     });
 });
 
 // Just running the two tasks
-gulp.task('default', ['scripts', 'css']);
+gulp.task('default', ['switcher', 'css']);
