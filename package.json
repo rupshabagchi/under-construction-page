@@ -1,0 +1,23 @@
+{
+  "name": "coming-up",
+  "version": "1.0.0",
+  "description": "This is a template that makes use of pure javascript and css3/bootstrap. It also includes a colour switcher.",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rupshabagchi/under-construction-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rupshabagchi/under-construction-page/issues"
+  },
+  "homepage": "https://github.com/rupshabagchi/under-construction-page#readme"
+}
