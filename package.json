@@ -4,7 +4,7 @@
   "description": "This is a template that makes use of pure javascript and css3/bootstrap. It also includes a colour switcher.",
   "main": "gulpfile.js",
   "dependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^4.0.2"
   },
   "devDependencies": {
     "gulp-concat": "^2.6.1",

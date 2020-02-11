@@ -69,6 +69,14 @@ $(document).ready(function() {
     });
 });
 
-
 // niceScroll || scrollbars resize
 $("body").getNiceScroll().resize();
+
+// includeData
+$(function(){
+    var includes = $('[data-include]');
+    jQuery.each(includes, function(){
+      var file = 'conf/' + $(this).data('include') + '.html';
+      $(this).load(file);
+    });
+  });

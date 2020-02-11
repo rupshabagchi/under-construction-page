@@ -1033,7 +1033,7 @@ a:hover {
   bottom: 0;
   left: 0;
   display: block;
-  background: #fff url(../img/Preloader.gif) no-repeat center center;
+  background: #fff url(../img/PreLoader.gif) no-repeat center center;
   opacity: 1;
   -moz-opacity: 1;
   -webkit-opacity: 1;
